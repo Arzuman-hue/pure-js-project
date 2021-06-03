@@ -1,1 +1,4 @@
-console.log('hello')
+
+document.body.addEventListener("click", function (event){
+    event.target.textContent = "ksjdjkdfbvjhfbjhvbhjskjfnjkfdnjkfdnjkdfnvjk"
+})
