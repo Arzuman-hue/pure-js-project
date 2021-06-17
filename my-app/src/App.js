@@ -1,13 +1,14 @@
+import React from "react";
 import './App.css';
-import Welcome from "./components/components";
+import Lessons from "./components/lessons";
 
 
 function App() {
-  return (
-    <div className="App">
-      <Welcome/>
-    </div>
-  );
+    return (
+        <div className="App">
+    <Lessons/>
+        </div>
+    );
 }
 
 export default App;
